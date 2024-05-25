@@ -5,7 +5,7 @@ import streamlit as st
 import plotly.express as px
 
 
-df = pd.read_csv("insurance.csv")
+df = pd.read_csv("insurance/insurance.csv")
 
 
 
