@@ -5,8 +5,11 @@ import streamlit as st
 import plotly.express as px
 
 # Step 1: Read the CSV file into a pandas DataFrame
+csv_file_path = "life_xp/Life_Expectancy_Data.csv"
 
-df = pd.read_csv("Life_Expectancy_Data.csv")
+#Read the CSV file
+df = pd.read_csv(csv_file_path)
+
 
 # Step 2: Preprocess the data
 # Drop any rows with missing values
