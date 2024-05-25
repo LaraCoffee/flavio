@@ -5,7 +5,11 @@ import streamlit as st
 import plotly.express as px
 
 
-df = pd.read_csv("real_estate.csv")
+csv_file_path = "real_estate/real_estate.csv"
+
+#Read the CSV file
+df = pd.read_csv(csv_file_path)
+
 
 
 
