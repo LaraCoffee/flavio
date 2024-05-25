@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 
-csv_file_path = "real estate/real_estate.csv"
+csv_file_path = "real_state/real_state.csv"
 
 #Read the CSV file
 df = pd.read_csv(csv_file_path)
