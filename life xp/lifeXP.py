@@ -6,7 +6,11 @@ import plotly.express as px
 
 # Step 1: Read the CSV file into a pandas DataFrame
 
-df = pd.read_csv("Life_Expectancy_Data.csv")
+csv_file_path = "Life_Expectancy_Data.csv"
+
+#Read the CSV file
+df = pd.read_csv(csv_file_path)
+
 
 # Step 2: Preprocess the data
 # Drop any rows with missing values
